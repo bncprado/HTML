@@ -1,2 +1,3 @@
-FIRST FILE FOR UPLOAD
-modifying for testing purposes
+These websites where created at the CodeNation Python Bootcamp. 
+
+One was a personal website and another one to insert a python code for a game that our group was supposed to create
