@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(151, 212, 66, 0.327);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p,h1,h2,h3 {
+    color: black;
+    background-color: hsl(51, 100%, 50%);
+    background-size: 75%;
+}
+
+/* h4,h5,h6 {color: beige;} */
+
+.texto-azulbold{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#important-text{
+    color: rgba(151, 212, 66, 0.327);
+    border: solid 20px ;
+    padding: 20px;
+    background-color: rgb(20, 54, 54);
+    font-style: italic;
+
+}
