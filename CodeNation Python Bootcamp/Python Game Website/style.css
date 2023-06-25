@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(16, 70, 2, 0.535);
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    font-size: 16px;
+    color: rgb(231, 228, 216);
+    background-image: url(images/forest.jpg);
+}
+
+main section {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.container {
+    /* display: flex; use flexbox layout */
+    justify-content: space-between; /* space items evenly along the main axis */
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+    /* background-color: white;
+    border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: left;
+}
+h1{ text-align: center;
+text-shadow: 3px 3px #d950a4;
+
+}
+
+h2{ text-align: center;
+  text-shadow: 3px 3px #d950a4
+}
+
+h3{
+    text-align: center;
+    text-shadow: 3px 3px #d950a4
+}
+
+.section {
+    background-color: rgba(138, 105, 70, 0.659);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 200px; 
+    overflow: auto
+    
+  }
+  
+  
+ .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: transparent;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ffd000;
+    text-decoration: underline;
+  }
+
+  a:link {
+  color: #ffffff;
+}
+
+  html{
+    scroll-behavior: smooth;
+
+ }
+
+ 
+.box1, .box2 {
+    width: 450px; 
+       
+    border-radius: 200px;
+    height: 240px; 
+    background-color: rgba(138, 105, 70, 0.659);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    /* height: 250px;  */
+    
+    
+
+    
+    /* background-color: rgba(204, 204, 204, 0.355); set a background color for the boxes */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  }
+  
+.full-width {
+  width: 100%;
+  
+}
+
+iframe {
+  max-width: 100%;
+  width: 5000px;
+  /* height: 100vh
+  max-width: 100%;
+  align-self: 100 */
+  /* text-align: center;
+  align-items: center;
+  align-content: center;
+  ruby-align: center;
+  vertical-align: middle; */
+  
+}
+
+  
